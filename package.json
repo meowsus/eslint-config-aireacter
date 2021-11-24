@@ -1,0 +1,22 @@
+{
+  "name": "eslint-config-aireacter",
+  "version": "0.1.0",
+  "description": "An eslint-config that makes Airbnb, React, and Prettier get along ok",
+  "main": "index.js",
+  "repository": "https://github.com/meowsus/eslint-config-aireacter",
+  "author": "Curt Howard <curt@portugly.com>",
+  "license": "MIT",
+  "dependencies": {
+    "eslint-config-airbnb": ">= 19",
+    "eslint-config-prettier": ">= 8.3",
+    "eslint-plugin-prettier": ">= 4"
+  },
+  "peerDependencies": {
+    "eslint": ">= 7.32.0",  
+    "prettier": ">= 2.4.1",
+    "eslint-plugin-import": ">= 2.25.3",
+    "eslint-plugin-jsx-a11y": ">= 6.5.1",
+    "eslint-plugin-react": ">= 7.27.1",
+    "eslint-plugin-react-hooks": ">= 4.3.0"
+  }
+}
